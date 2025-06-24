@@ -118,18 +118,23 @@ Graphical or emoji-based icons that represent current weather.
 
 Examples:
 •	☀️ Sunny
+
 •	🌧️ Rainy
+
 •	⛅ Partly Cloudy
+
 •	🌩️ Thunderstorm
+
 Purpose:
 Makes the UI more intuitive and visually engaging.
 
 Interact with Responsive UI
 
 Description:
-User interface adapts across devices and screen sizes.
+	User interface adapts across devices and screen sizes.
 
 Design Features:
+
 •	Mobile-first design
 •	Touch-friendly elements
 •	Scalable components (cards, containers, scroll areas)
