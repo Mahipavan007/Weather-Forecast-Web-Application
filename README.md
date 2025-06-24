@@ -15,6 +15,7 @@ Include the following diagrams:
 
 •	DFD (Data Flow Diagram) –Depicts the flow between the API and the User Interface.
 
+![image](https://github.com/user-attachments/assets/ff2f830f-90b6-496b-9dea-12d133503bdd)
 
 
  
