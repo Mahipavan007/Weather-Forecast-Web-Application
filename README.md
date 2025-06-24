@@ -1,5 +1,7 @@
 Weather Forecast Web Application
+
 Objectives / Aim
+
 •	To provide real-time weather information for any searched city.
 •	To display a 24-hour scrollable hourly forecast in a user-friendly way.
 •	To include voice input and interactive map for enhanced usability.
