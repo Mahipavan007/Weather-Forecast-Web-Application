@@ -22,8 +22,12 @@ Include the following diagrams:
 
 •	Use Case Diagram – Depicts the main user interactions with the system.
 
+![image](https://github.com/user-attachments/assets/41919487-0f9c-4de3-8f86-5388ed5e29ec)
+
  
 •	UML Component Diagram – Shows the logical components of the app (API handler, UI, voice input, etc.)
+
+![image](https://github.com/user-attachments/assets/889d75e9-d632-43d8-823e-18694dcaa878)
 
  
 Technical Steps – Support with Short Explanation and Screenshots
@@ -133,34 +137,44 @@ Design Features:
 Purpose:
 	Enables the end users to use this application in any kind of devices(tablet, mobiles, laptop..).
 
+![image](https://github.com/user-attachments/assets/10304fa3-27c5-4a42-b785-f9d069083b35)
 
  
 
 2.	API Integration:
 Used the Open WeatherMap API to get real time weather and hourly information regarding weather.
 
-4.	Weather Display: 
+3.	Weather Display: 
 Displayed temperature in °C, conditions(cloudy/rainy/storm), wind speed(in m/s), and humidity levels in atmosphere at a particular searched place. 
 
- 
+ ![image](https://github.com/user-attachments/assets/76914931-536e-4eaf-8547-a9091b181dd3)
+
 
 Wind speed and Humidity
 
+![image](https://github.com/user-attachments/assets/e17feb19-7ed3-40ff-8613-56c513622752)
 
  
 
 4.	Forecast Renderer: Scrollable section shows weather for next 24 hours with emojis.
 
- 
+ ![image](https://github.com/user-attachments/assets/420310d5-1816-4af5-8449-b6b14a20ecd0)
+
 
 The Forecast Renderer is responsible for displaying the weather forecast for the next 24 hours in a visually engaging format. Each card represents a 1-hour interval and includes:
 •	🌡️ The temperature (in °C)
-•	🌦️ A weather condition emoji (e.g., ☀️ for sunny, 🌧️ for rain, ☁️ for cloudy)
-5.	Map Integration: Used Leaflet.js and OpenStreetMap to pin city location.
 
- 
+•	🌦️ A weather condition emoji (e.g., ☀️ for sunny, 🌧️ for rain, ☁️ for cloudy)
+
+5.	Map Integration:
+   Used Leaflet.js and OpenStreetMap to pin city location.
+
+ ![image](https://github.com/user-attachments/assets/9499030f-dc6a-419c-8cd0-a3c8f451c949)
+
 
 6.	Voice Input: Integrated Web Speech API to allow voice search of city names.
+
+![image](https://github.com/user-attachments/assets/866b4cfc-806e-4409-9165-286fa18650d5)
 
  
 Challenges / Limitations
