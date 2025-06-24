@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🌤️ Weather Forecast</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+  <div class="container">
+    <h1 class="main-title">🌤️ WEATHER FORECAST</h1>
+
+    <div class="search-box">
+      <input type="text" id="cityInput" placeholder="Type a city name" />
+      <button onclick="getWeather()">Get Weather</button>
+      <button id="voiceBtn" title="Say city name aloud">🎤 Voice</button>
+    </div>
+
+    <div id="weatherNow" class="weather-now"></div>
+
+    <h2 id="forecastTitle" class="hidden"></h2>
+    <div id="forecast" class="scroll-wrapper hidden"></div>
+
+    <h2 id="mapTitle" class="hidden">📍City on Map</h2>
+    <div id="map" class="map hidden"></div>
+  </div>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
